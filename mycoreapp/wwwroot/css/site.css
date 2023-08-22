@@ -20,3 +20,141 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*
+==========================================================
+   FLEXIBLE-JOBS CSS BELOW!
+==========================================================
+*/
+
+/*TODO: Cool stuff!
+
+Hello there, dont forget to add the fonts, either using the font files 
+in the fonts folder or via google fonts url.
+        Sans  -> Robto
+        Serif -> Roboto Slab
+        mono  -> Roboto Mono
+*/
+@font-face {
+  font-family: "Roboto";
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: url('../fonts/RobotoSlab-VariableFont_wght.ttf');
+}
+@font-face{
+  font-family: "Roboto Mono";
+  src:url('../fonts/RobotoMono-VariableFont_wght.ttf')
+}
+
+.fj-sans{
+  font-family: 'Roboto';
+}
+.fj-serif{
+  font-family: 'Roboto Slab';
+}
+.fj-mono{
+  font-family: 'Roboto Mono';
+}
+/* Colours used in the project */
+.fj-primary {
+  color: #4ECDC4 !important;
+}
+
+.fj-bg-primary {
+  background-color: #4ECDC4 !important;
+}
+
+.fj-dark-primary {
+  color: #16504B !important;
+}
+
+.fj-bg-dark-primary {
+  background-color: #16504B !important;
+}
+
+.fj-light-primary {
+  color: #AFE9E4 !important;
+}
+
+.fj-bg-light-primary {
+  background-color: #AFE9E4 !important;
+}
+
+
+.fj-black {
+  color: #1a1a1a !important;
+}
+
+.fj-bg-black {
+  background-color: #1a1a1a !important;
+}
+
+.fj-white {
+  color: #f2f2f2 !important;
+}
+
+.fj-bg-white {
+  background-color: #f2f2f2 !important;
+}
+
+
+/* borders*/
+
+.fj-btn-border {
+  border: 1px solid #1a1a1a;
+}
+
+.fj-border-full {
+  border: 2px solid #1a1a1a;
+}
+
+.fj-border-bottom {
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.fj-border-top {
+  border-top: 2px solid #1a1a1a;
+}
+
+.fj-border-right {
+  border-right: 2px solid #1a1a1a;
+}
+
+.fj-border-left {
+  border-left: 2px solid #1a1a1a;
+}
+
+/*shadows used on cards & buttons*/
+
+.fj-bg-shadow-right {
+  box-shadow: 10px 10px 0px 0px #1a1a1a;
+}
+
+.fj-btn-shadow-left {
+  box-shadow: -5px 5px 0px 0px #1a1a1a
+}
+
+.fj-bg-shadow-bottom {
+  box-shadow: 0px 10px 0px 0px #1a1a1a;
+}
+
+/* Border radii */
+
+.fj-radius-sm {
+  border-radius: 16px;
+}
+
+.fj-radius-sm-left {
+  border-radius: 0px 16px 16px 0px;
+}
+
+.fj-radius-md {
+  border-radius: 22px;
+}
+
+
+.fj-radius-lg {
+  border-radius: 30px;
+}
