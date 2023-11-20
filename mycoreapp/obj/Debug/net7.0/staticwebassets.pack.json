@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\fonts\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\fonts\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\fonts\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\fonts\\Roboto-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\fonts\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\fonts\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\fonts\\RobotoMono-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\RobotoMono-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\fonts\\RobotoSlab-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\RobotoSlab-VariableFont_wght.ttf"
+    },
+    {
       "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\images\\Aged man closing eyes with cookies and young woman irritated with his behaviour.png",
       "PackagePath": "staticwebassets\\images\\Aged man closing eyes with cookies and young woman irritated with his behaviour.png"
     },
@@ -101,12 +129,12 @@
       "PackagePath": "staticwebassets\\images\\logos\\fj-logo-black.svg"
     },
     {
-      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\images\\logos\\fj-logo-color.svg",
-      "PackagePath": "staticwebassets\\images\\logos\\fj-logo-color.svg"
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\images\\logos\\fj-logo-color.png",
+      "PackagePath": "staticwebassets\\images\\logos\\fj-logo-color.png"
     },
     {
-      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\images\\logos\\fj-logo-colour.png",
-      "PackagePath": "staticwebassets\\images\\logos\\fj-logo-colour.png"
+      "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\images\\logos\\fj-logo-color.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\fj-logo-color.svg"
     },
     {
       "Id": "C:\\Users\\mcsam\\Documents\\GitHub\\flexible-jobs-asp.net\\mycoreapp\\wwwroot\\images\\logos\\fj-logo-white.svg",

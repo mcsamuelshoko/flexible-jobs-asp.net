@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  font-family: "Roboto";
 }
 
 @media (min-width: 768px) {
@@ -21,20 +22,31 @@ body {
   margin-bottom: 60px;
 }
 
+.footer-logo{
+  width: 96px;
+  height: 96px;
+  margin-left: 1rem;
+}
+.footer-logo-fj{
+  width: 110px;
+  height: 110px;
+}
+
+.link-no-underline{
+  text-decoration-line: none;
+}
+
+.footer-shield-shadow {
+  box-shadow: -5px 5px 0px 0px #4ECDC4;
+}
+
 /*
 ==========================================================
    FLEXIBLE-JOBS CSS BELOW!
 ==========================================================
 */
 
-/*TODO: Cool stuff!
 
-Hello there, dont forget to add the fonts, either using the font files 
-in the fonts folder or via google fonts url.
-        Sans  -> Robto
-        Serif -> Roboto Slab
-        mono  -> Roboto Mono
-*/
 @font-face {
   font-family: "Roboto";
   src: url('../fonts/Roboto-Regular.ttf');
@@ -47,6 +59,7 @@ in the fonts folder or via google fonts url.
   font-family: "Roboto Mono";
   src:url('../fonts/RobotoMono-VariableFont_wght.ttf')
 }
+
 
 .fj-sans{
   font-family: 'Roboto';
