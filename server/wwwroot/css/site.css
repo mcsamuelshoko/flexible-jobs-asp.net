@@ -8,6 +8,28 @@ in the fonts folder or via google fonts url.
         mono  -> Roboto Mono
 */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+.fj-font-sans {
+   font-family:'Roboto';
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); */
+.fj-font-mono {
+    font-family: 'Roboto Mono';
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); */
+.fj-font-serif {
+    font-family: 'Roboto Slab';
+}
+
+body{
+    font-family: 'Roboto Mono';
+}
+
+
+
+
 /* Colours used in the project */
 .fj-primary {
     color: #4ECDC4 !important;
@@ -109,3 +131,4 @@ in the fonts folder or via google fonts url.
 .fj-radius-lg {
     border-radius: 30px;
 }
+

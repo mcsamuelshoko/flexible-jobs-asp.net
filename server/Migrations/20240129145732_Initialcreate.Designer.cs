@@ -13,7 +13,7 @@ namespace server.Migrations
 {
     [DbContext(typeof(serverContext))]
     [Migration("20240129145732_Initialcreate")]
-    partial class InitialCreate
+    partial class Initialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
