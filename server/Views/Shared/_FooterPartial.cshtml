@@ -1,18 +1,18 @@
 ﻿<footer class="border-top footer text-muted fj-bg-black p-2">
     
-    <div class="">
+    <div class="d-flex flex-wrap align-items-center justify-content-around">
         <div>
-            <img class="" src="~/images/logos/fj-logo-color.svg" />
+            <img class="" src="~/images/logos/fj-logo-colour.png" />
         </div>
-        <div>
-            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Terms &amp; Conditions</a>
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
+        <div class="fj-font-sans">
+            <a class="mx-1" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a class="mx-1" asp-area="" asp-controller="Home" asp-action="Privacy">Terms &amp; Conditions</a>
+            <a class="mx-1" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a class="mx-1" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
         </div>
-        <div>
-              <div>
-                <p class="fj-font-sans fw-bold fj-white">
+        <div class=" d-flex">
+              <div class="ms-4">
+                <p class="fj-font-sans fw-bold fj-white fj-btn-shadow-left p-2 fj-bg-dark-primary fj-border-full fj-width-7rem fj-radius-sm small fj-btn-shadow-left">
                     all
                     illustration
                     images are
@@ -21,13 +21,15 @@
                  </p>
                  <button href="https://icons8.com" class="fj-font-sans fw-bold fj-white fj-bg-dark-primary rounded p-1 m-1 border-0">visit icons8</button>
               </div>
-              <div>
+              <div class="ms-4">
                   <img src="~/images/icons logo front view.png" />
               </div>
 
         </div>
     </div>
-    <div class="container align-content-center">
-        &copy; 2024 | Flexible Jobs | All Rights reserved | <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <div class="d-flex flex-wrap justify-content-around">
+        <span>
+            &copy; 2024 | Flexible Jobs | All Rights reserved | <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </span>
     </div>
 </footer>
