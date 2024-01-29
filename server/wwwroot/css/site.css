@@ -1,22 +1,134 @@
-html {
-  font-size: 14px;
+
+/*TODO: Cool stuff!
+
+Hello there, dont forget to add the fonts, either using the font files 
+in the fonts folder or via google fonts url.
+        Sans  -> Robto
+        Serif -> Roboto Slab
+        mono  -> Roboto Mono
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+.fj-font-sans {
+   font-family:'Roboto';
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); */
+.fj-font-mono {
+    font-family: 'Roboto Mono';
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); */
+.fj-font-serif {
+    font-family: 'Roboto Slab';
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+body{
+    font-family: 'Roboto Mono';
 }
 
-body {
-  margin-bottom: 60px;
+
+
+
+/* Colours used in the project */
+.fj-primary {
+    color: #4ECDC4 !important;
 }
+
+.fj-bg-primary {
+    background-color: #4ECDC4 !important;
+}
+
+.fj-dark-primary {
+    color: #16504B !important;
+}
+
+.fj-bg-dark-primary {
+    background-color: #16504B !important;
+}
+
+.fj-light-primary {
+    color: #AFE9E4 !important;
+}
+
+.fj-bg-light-primary {
+    background-color: #AFE9E4 !important;
+}
+
+
+.fj-black {
+    color: #1a1a1a !important;
+}
+
+.fj-bg-black {
+    background-color: #1a1a1a !important;
+}
+
+.fj-white {
+    color: #f2f2f2 !important;
+}
+
+.fj-bg-white {
+    background-color: #f2f2f2 !important;
+}
+
+
+/* borders*/
+
+.fj-btn-border {
+    border: 1px solid #1a1a1a;
+}
+
+.fj-border-full {
+    border: 2px solid #1a1a1a;
+}
+
+.fj-border-bottom {
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.fj-border-top {
+    border-top: 2px solid #1a1a1a;
+}
+
+.fj-border-right {
+    border-right: 2px solid #1a1a1a;
+}
+
+.fj-border-left {
+    border-left: 2px solid #1a1a1a;
+}
+
+/*shadows used on cards & buttons*/
+
+.fj-bg-shadow-right {
+    box-shadow: 10px 10px 0px 0px #1a1a1a;
+}
+
+.fj-btn-shadow-left {
+    box-shadow: -5px 5px 0px 0px #1a1a1a
+}
+
+.fj-bg-shadow-bottom {
+    box-shadow: 0px 10px 0px 0px #1a1a1a;
+}
+
+/* Border radii */
+
+.fj-radius-sm {
+    border-radius: 16px;
+}
+
+.fj-radius-sm-left {
+    border-radius: 0px 16px 16px 0px;
+}
+
+.fj-radius-md {
+    border-radius: 22px;
+}
+
+
+.fj-radius-lg {
+    border-radius: 30px;
+}
+
