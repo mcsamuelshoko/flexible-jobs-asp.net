@@ -27,6 +27,9 @@ body{
     font-family: 'Roboto Mono';
 }
 
+.home-body-bg {
+    background: linear-gradient(to right, white 50%, #afe9e4 50%);
+}
 
 
 
@@ -115,6 +118,10 @@ body{
 
 /* Border radii */
 
+.fj-radius-8px {
+    border-radius: 8px;
+}
+
 .fj-radius-sm {
     border-radius: 16px;
 }
@@ -136,3 +143,7 @@ body{
     max-width: 7rem;
 }
 
+/* icon-sizes */
+.fj-icon-96px{
+    height:96px;
+}
