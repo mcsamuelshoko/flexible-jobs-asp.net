@@ -76,6 +76,7 @@ body{
 }
 
 
+
 /* borders*/
 
 .fj-btn-border {
@@ -106,6 +107,14 @@ body{
 
 .fj-bg-shadow-right {
     box-shadow: 10px 10px 0px 0px #1a1a1a;
+}
+
+.fj-bg-shadow-left {
+    box-shadow: -10px 10px 0px 0px #1a1a1a;
+}
+
+.fj-bg-shadow-left-primary {
+    box-shadow: -10px 10px 0px 0px #4ECDC4;
 }
 
 .fj-btn-shadow-left {
@@ -146,4 +155,8 @@ body{
 /* icon-sizes */
 .fj-icon-96px{
     height:96px;
+}
+
+.h-fit-content{
+    height:fit-content;
 }
