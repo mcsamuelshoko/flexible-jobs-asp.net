@@ -160,3 +160,30 @@ body{
 .h-fit-content{
     height:fit-content;
 }
+
+.max-width-42rem{
+    max-width:42rem;
+}
+
+.max-width-21rem {
+    max-width: 21rem;
+}
+.min-width-50 {
+    min-width: 50%;
+}
+
+.fj-h-120px{
+    height:120px;
+}
+
+.fj-h-240px {
+    height: 240px;
+}
+
+.fj-h-360px {
+    height: 360px;
+}
+
+.fj-mt-n-4rem{
+    margin-top:-4rem
+}
