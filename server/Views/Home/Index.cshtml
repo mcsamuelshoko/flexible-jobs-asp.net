@@ -14,7 +14,7 @@
                     Make work fit your life <br/>
                     or get the right person for the job !
                 </p>
-                <button class="ms-4 mb-4 rounded fw-bold fj-bg-black fj-white">Sign In</button>
+                <a  asp-controller="Account" asp-action="login" ><button class="ms-4 mb-4 rounded fw-bold fj-bg-black fj-white" >Sign In</button></a>
             </div>
             <div class="">
                 <img class="fj-h-360px" src="~/images/man and woman at work.png"/>
@@ -42,7 +42,8 @@
                             job!
                         </p>
                         <div class="d-flex justify-content-center">
-                            <button class="button rounded fj-font-sans fj-bg-black fj-white fw-bold fj-btn-border p-1 px-2">Sign Up</button>
+                            <button class="button rounded fj-font-sans fj-bg-black fj-white fw-bold fj-btn-border p-1 px-2" onclick="location.href='@Url.
+                            ("Account","Register")'">Sign&nbsp;Up</button>
                         </div>
             </div>
         </div>
