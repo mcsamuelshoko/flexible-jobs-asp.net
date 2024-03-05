@@ -27,6 +27,9 @@ body{
     font-family: 'Roboto Mono';
 }
 
+.home-body-bg {
+    background: linear-gradient(to right, white 50%, #afe9e4 50%);
+}
 
 
 
@@ -73,6 +76,7 @@ body{
 }
 
 
+
 /* borders*/
 
 .fj-btn-border {
@@ -105,6 +109,14 @@ body{
     box-shadow: 10px 10px 0px 0px #1a1a1a;
 }
 
+.fj-bg-shadow-left {
+    box-shadow: -10px 10px 0px 0px #1a1a1a;
+}
+
+.fj-bg-shadow-left-primary {
+    box-shadow: -10px 10px 0px 0px #4ECDC4;
+}
+
 .fj-btn-shadow-left {
     box-shadow: -5px 5px 0px 0px #1a1a1a
 }
@@ -114,6 +126,10 @@ body{
 }
 
 /* Border radii */
+
+.fj-radius-8px {
+    border-radius: 8px;
+}
 
 .fj-radius-sm {
     border-radius: 16px;
@@ -132,3 +148,42 @@ body{
     border-radius: 30px;
 }
 
+.fj-width-7rem {
+    max-width: 7rem;
+}
+
+/* icon-sizes */
+.fj-icon-96px{
+    height:96px;
+}
+
+.h-fit-content{
+    height:fit-content;
+}
+
+.max-width-42rem{
+    max-width:42rem;
+}
+
+.max-width-21rem {
+    max-width: 21rem;
+}
+.min-width-50 {
+    min-width: 50%;
+}
+
+.fj-h-120px{
+    height:120px;
+}
+
+.fj-h-240px {
+    height: 240px;
+}
+
+.fj-h-360px {
+    height: 360px;
+}
+
+.fj-mt-n-4rem{
+    margin-top:-4rem
+}
