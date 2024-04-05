@@ -1,13 +1,35 @@
-﻿<!DOCTYPE html>
+﻿<header>
+    <nav class="fj-bg-light-primary navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logos/fj-logo-color.svg" class="fj-icon-48px" />
+                </a>
+                @*<h3 class="fj-font-sans fw-bold">FLEXIBLE JOBS</h3>*@
+            </div>
+            <div class="px-4 pt-2 fj-black w-50 rounded d-flex justify-content-center align-self-start fj-font-sans">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item "><a class="fj-dark-primary fw-bold" href="#">Home</a></li>
+                        <li class="breadcrumb-item "><a class="fj-dark-primary fw-bold" href="#">Library</a></li>
+                        <li class="breadcrumb-item  fj-black fw-bold active">Data</li>
+                    </ol>
+                </nav>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between fj-font-sans">
+                    <ul
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-</head>
-<body>
-    <div>
-        @RenderBody()
-    </div>
-</body>
-</html>
+                        <li class="nav-item">
+                            <a asp-area="" asp-controller="Account" asp-action="Login"><button class="rounded px-2 fj-black fj-btn-border fj-bg-light-primary m-2">Sign&nbsp;In</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
