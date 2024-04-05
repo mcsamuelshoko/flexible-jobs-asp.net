@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using server.Models;
+using FlexibleJobs.Models;
 
-namespace server.Controllers;
+namespace FlexibleJobs.Controllers;
 
 public class HomeController : Controller
 {

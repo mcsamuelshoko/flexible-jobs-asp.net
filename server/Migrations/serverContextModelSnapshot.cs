@@ -4,14 +4,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using server.Data;
+using FlexibleJobs.Data;
 
 #nullable disable
 
-namespace server.Migrations
+namespace FlexibleJobs.Migrations
 {
-    [DbContext(typeof(serverContext))]
-    partial class serverContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(FlexibleJobsContext))]
+    partial class FlexibleJobsContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -22,7 +22,7 @@ namespace server.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("server.Models.User", b =>
+            modelBuilder.Entity("FlexibleJobs.Models.User", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");

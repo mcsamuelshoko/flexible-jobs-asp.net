@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using server.Data;
-using server.Models;
+using FlexibleJobs.Data;
+using FlexibleJobs.Models;
 
-namespace server.Controllers
+namespace FlexibleJobs.Controllers
 {
     public class UsersController : Controller
     {
-        private readonly serverContext _context;
+        private readonly FlexibleJobsContext _context;
 
-        public UsersController(serverContext context)
+        public UsersController(FlexibleJobsContext context)
         {
             _context = context;
         }

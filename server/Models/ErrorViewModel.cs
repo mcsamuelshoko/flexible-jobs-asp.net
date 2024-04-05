@@ -1,4 +1,4 @@
-namespace server.Models;
+namespace FlexibleJobs.Models;
 
 public class ErrorViewModel
 {

@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using server.Models;
+using FlexibleJobs.Models;
 
-namespace server.Data
+namespace FlexibleJobs.Data
 {
-    public class serverContext : DbContext
+    public class FlexibleJobsContext : DbContext
     {
-        public serverContext (DbContextOptions<serverContext> options)
+        public FlexibleJobsContext(DbContextOptions<FlexibleJobsContext> options)
             : base(options)
         {
         }
 
-        public DbSet<server.Models.User> User { get; set; } = default!;
+        public DbSet<FlexibleJobs.Models.User> User { get; set; } = default!;
     }
 }
