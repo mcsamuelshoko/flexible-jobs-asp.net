@@ -1,7 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Security;
 
-namespace server.Models
+namespace FlexibleJobs.Models
 {
+    enum UserRoles
+    {
+        employee,
+        employer,
+        admin
+    }
+
     public class User
     {
         public required string Id { get; set; }
@@ -16,7 +24,7 @@ namespace server.Models
         [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
         [DataType(DataType.Password)]
-        public string? Password { get; set;}
+        public string? Password { get; set;} //TODO: try implementing secureString after a deeper understanding
         public string? Role { get; set; }//- type<string>[admin, employer, employee],
         public string? Status { get; set; }//- status<string>[active, banned]
 
