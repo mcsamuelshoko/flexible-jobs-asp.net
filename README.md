@@ -78,4 +78,23 @@
 2. the code is in the `/server` folder.
 4. in the `/server` folder run the .NET server with `dotnet run`
 
+---
+
+## Original `appsettings.json` file
+```json
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "serverContext": "Server=(localdb)\\mssqllocaldb;Database=serverContext-6f2a0353-0493-4207-b6b9-8a4e29e95323;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
+
+```
 
