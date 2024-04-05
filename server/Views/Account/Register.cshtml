@@ -4,6 +4,80 @@
     ViewData["Title"] = "Register";
 }
 
+<div class="min-vh-100">
+
+
+    <partial name="_HeaderMiddlePartial">
+        <div class="top-section d-flex flex-wrap-reverse fj-font-sans justify-content-around pt-5">
+            <div class="pt-4">
+                <img class="fj-h-360px" src="~/images/bar table with laptop.png" />
+            </div>
+        <div class="fj-bg-light-primary fj-radius-sm fj-bg-shadow-right m-4 my-auto h-fit-content">
+            <p class="fj-border-bottom p-2 px-4">
+                Create Account
+            </p>
+            <form class="p-4 fw-bold d-flex flex-column" method="post" enctype="multipart/form-data">
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group d-flex">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Role" name="Role" id="jobSeekerRadio" value="employee" checked>
+                            <label class="form-check-label" for="jobSeekerRadio">
+                                Job Seeker
+                            </label>
+                        </div>
+                        <div class="px-4">
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" asp-for="Role" name="Role" id="EmployerRadio" value="employer">
+                            <label class="form-check-label" for="EmployeeRadio">
+                                Employer
+                            </label>
+                        </div>
+                        <span asp-validation-for="Role" class="text-danger"></span>
+                        @* <label asp-for="Role" class="control-label"></label> *@
+
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        @* <label asp-for="FirstName" class="control-label"></label> *@
+                        <input asp-for="FirstName" class="form-control px-2" placeholder="First Name" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                        @* <label asp-for="LastName" class="control-label"></label> *@
+                        <input asp-for="LastName" class="form-control px-2" placeholder="Last Name" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        @* <label asp-for="Email" class="control-label"></label> *@
+                        <input asp-for="Email" class="form-control px-2" placeholder="Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        @* <label asp-for="Password" class="control-label"></label> *@
+                        <input asp-for="Password" class="form-control px-2" placeholder="Password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <br />
+                                        
+
+                <button asp-controller="Account" asp-action="RegisterUser" type="submit" class=" mb-4 rounded fw-bold fj-bg-black fj-white">Sign Up</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+@*
 <h1>Register</h1>
 
 <h4>User</h4>
@@ -76,3 +150,4 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+*@
