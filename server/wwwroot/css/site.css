@@ -157,6 +157,14 @@ body{
     height:96px;
 }
 
+.fj-icon-48px {
+    height: 48px;
+}
+
+.fj-icon-24px {
+    height: 24px;
+}
+
 .h-fit-content{
     height:fit-content;
 }
